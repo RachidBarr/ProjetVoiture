@@ -1,0 +1,111 @@
+/* @media screen and (min-width: 300px) and (max-width: 2500px){
+
+
+header{
+    display:flex;
+    background-color:#ACC581;
+}
+
+#pagetop {
+    grid-column:1/-1;
+}
+
+#menu {
+    display:inline-block;
+    
+    grid-template-columns: 1fr 1fr;
+}
+  
+#info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+#taille_logo{
+    width:50px;
+	height:50px;
+}
+
+.Nom{
+    color: Black;
+    margin: 0px;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+    padding-top: 15px;
+}
+#rectangle{
+    width:300px;
+    height: 45px;
+    text-align: center;
+    position:absolute;
+    vertical-align:middle;
+    line-height:36px;
+    right:40px;
+    top:30px;
+    
+}
+
+#pagebottom {
+    display: grid;
+    grid-column:1/-1;
+}
+/*@media screen and (min-width: 200px) and (max-width: 800px) {
+  body {
+    display:block;
+    clear:both;
+  }
+}*/
+/* }
+
+@media (prefers-color-scheme: dark) {
+
+  html {
+    filter: invert(1) hue-rotate(.5turn);
+  }
+
+  img {
+    filter: invert(1) hue-rotate(.5turn);
+  }
+
+  img:not(:hover) {
+    opacity: .7;
+    transition: opacity .25s ease-in-out;
+  }
+} */ 
+
+
+
+body{
+  background-color:#ACC581;
+  text-align: center;
+  margin:0 30%;
+}
+
+.cacher{
+  display: none;
+}
+
+#NomMarque{
+  text-transform: uppercase;
+}
+
+
+ 
+.marque, .modele{
+  width: 47%;
+  padding: 8px 15px;
+  margin:6px;
+}
+
+.dark {
+  background-color: #303030;
+  color: #fff;
+  transition: all 2s;
+}
+
+.light{
+  background-color: #ACC581;
+  transition: all 2s;
+}
